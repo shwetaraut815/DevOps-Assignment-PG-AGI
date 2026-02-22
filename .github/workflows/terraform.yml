@@ -3,7 +3,7 @@ name: Terraform Apply
 on:
   push:
     paths:
-      - "terraform/**"
+      - "terraform/aws/dev"
     branches:
       - main
 
