@@ -5,6 +5,8 @@ on:
     paths:
       - "frontend/**"
       - "backend/**"
+    branches:
+      - main
 
 env:
   FRONTEND_REPO: devops-assignment-frontend
