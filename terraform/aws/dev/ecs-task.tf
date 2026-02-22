@@ -56,7 +56,7 @@ resource "aws_ecs_task_definition" "backend" {
 
   ])
 }
-
+#####
 # Frontend Task Definition
 resource "aws_ecs_task_definition" "frontend" {
   family                   = "${var.project_name}-${var.environment}-frontend"
