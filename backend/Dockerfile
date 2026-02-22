@@ -2,8 +2,6 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-MAINTAINER Shweta pawar
-
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
