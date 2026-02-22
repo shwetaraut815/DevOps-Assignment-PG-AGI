@@ -91,7 +91,7 @@ resource "aws_ecs_task_definition" "frontend" {
         options = {
           awslogs-group         = aws_cloudwatch_log_group.ecs.name
           awslogs-region        = "ap-south-1"
-          awslogs-stream-prefix = "frontend"
+          awslogs-stream-prefix = "frontend-logs"
         }
       }
     }
